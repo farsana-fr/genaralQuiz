@@ -1,0 +1,69 @@
+header {
+  background-color: rgb(193, 72, 137);
+  outline-color: yellow;
+  color: yellow;
+}
+footer {
+  background-color: yellow;
+}
+
+main
+{
+  width:50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  opacity: 0;
+}
+.hide, .answer
+{
+  display: none;
+}
+.show
+{
+  display: block;
+}
+@media(max-width:700px)
+{
+  main
+  {
+    
+    font-size: small;
+  }
+  img
+  {
+    width: 90%;
+  }
+}
+@media(max-width:400px)
+{
+  main,h5,h6
+  {
+        font-size: x-small;
+ 
+  }
+  h5
+  {
+    font-weight: bold;
+  }
+  h2
+  {
+    font-size: medium; 
+    font-weight: bold;
+  }
+  img
+  {
+    width: 90%;
+  }
+
+}
+.displayTimer
+{
+  width: 50%;
+  height: 50px;
+  position: sticky;
+  top:0%;
+}
