@@ -1,10 +1,10 @@
 header {
   background-color: rgb(193, 72, 137);
-  outline-color: yellow;
-  color: yellow;
+  outline-color: rgb(150, 104, 194);
+  color: white;
 }
 footer {
-  background-color: yellow;
+  background-color: rgb(187, 135, 236);;
 }
 
 main
